@@ -1,0 +1,139 @@
+pl:
+  ice_cube:
+    pieces_connector: ' / '
+    not: 'not %{target}'
+    not_on: 'not on %{target}'
+    date:
+      formats:
+        default: '%B %-d, %Y'
+    times:
+      other: '%{count} razy'
+      one: '%{count} raz'
+    until: 'do %{date}'
+    days_of_week: '%{segments} %{day}'
+    days_of_month:
+      other: '%{segments} dni miesiąca'
+      one: '%{segments} dzień miesiąca'
+    days_of_year:
+      other: '%{segments} dni roku'
+      one: '%{segments} dzień roku'
+    at_hours_of_the_day:
+      other: on the %{segments} hours of the day
+      one: on the %{segments} hour of the day
+    on_minutes_of_hour:
+      other: on the %{segments} minutes of the hour
+      one: on the %{segments} minute of the hour
+    at_seconds_of_minute:
+      other: at the %{segments} seconds
+      one: at the %{segments} second
+    on_seconds_of_minute:
+      other: on the %{segments} seconds of the minute
+      one: on the %{segments} second of the minute
+    each_second:
+      one: Co sekundę
+      other: Co %{count} sekund
+    each_minute:
+      one: Co minutę
+      other: Co %{count} minut
+    each_hour:
+      one: Co godzinę
+      other: Co %{count} godzin
+    each_day:
+      one: Co dzień
+      other: Co %{count} dni
+    each_week:
+      one: Co tydzień
+      other: Co %{count} tygodnie
+    each_month:
+      one: Co miesiąc
+      other: Co %{count} miesiące
+    each_year:
+      one: Yearly
+      other: Co %{count} lata
+    'on': w %{sentence}
+    in: 'in %{target}'
+    integer:
+      negative: '%{ordinal} od końca'
+      literal_ordinals:
+        -1: ostatni
+        -2: przedostatni
+      ordinal: '%{number}%{ordinal}'
+      ordinals:
+        default: '.'
+        # 1: st
+        # 2: nd
+        # 3: rd
+        # 11: th
+        # 12: th
+        # 13: th
+    on_weekends: w weekendy
+    on_weekdays: w dni tygodnia
+    days_on:
+    - niedziele
+    - poniedziałki
+    - wtorki
+    - środy
+    - czwartki
+    - piątki
+    - soboty
+    on_days: w %{days}
+    array:
+      last_word_connector: ', i '
+      two_words_connector: ' i '
+      words_connector: ', '
+    string:
+      format:
+        day: '%{rest} %{current}'
+        day_of_week: '%{rest} %{current}'
+        day_of_month: '%{rest} %{current}'
+        day_of_year: '%{rest} %{current}'
+        hour_of_day: '%{rest} %{current}'
+        minute_of_hour: '%{rest} %{current}'
+        until: '%{rest} %{current}'
+        count: '%{rest} %{current}'
+        default: '%{rest} %{current}'
+  date:
+    abbr_day_names:
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
+    abbr_month_names:
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - niedziela
+    - poniedziałek
+    - wtorek
+    - środa
+    - czwartek
+    - piątek
+    - sobota
+    month_names:
+    -
+    - styczeń
+    - luty
+    - marzec
+    - kwiecień
+    - maj
+    - czerwiec
+    - lipiec
+    - sierpień
+    - wrzesień
+    - październik
+    - listopad
+    - grudzień
